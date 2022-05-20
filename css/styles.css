@@ -1,10 +1,14 @@
-body {background-color: #ffffff;font-family:Roboto}
+body {background-color: #ffffff;}
+body {font-family:'Roboto', 'Raleway', sans-serif;}
 .section1 {color:#ffffff;background-color:#2f303A}
 .section2 {background-color:#F5F4FA}
 .footer {background-color: #2f303A}
 .address {color:#ffffff}
-.address a {color:inherit;opacity:0.6}
-.web {color: #2196F3}
+.address a {color:inherit;}
+.footer-contact {opacity:0.6}
+.header-web, .footer-web {color: #2196F3}
+.header-studio {color:#000}
+.footer-studio {color:#fff}
 .chapter {color: #212121}
 .lorem-ipsum {color:#212121}
 .loremtext {color:#757575}
@@ -12,3 +16,10 @@ body {background-color: #ffffff;font-family:Roboto}
 .contacts a:hover{color:#2196F3}
 .header a{color:#212121}
 .header a:active{color:#2196F3}
+.footer-web, .footer-studio, .header-web, .header-studio {font-family:'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;}
+a {text-decoration: none}
