@@ -1,11 +1,12 @@
 body {background-color: #ffffff;}
 body {font-family:'Roboto', 'Raleway', sans-serif;}
-.section1 {color:#ffffff;background-color:#2f303A}
-.section2 {background-color:#F5F4FA}
+.section1 {color:#ffffff;background-color:#2f303A;}
+.section4 {background-color:#F5F4FA}
 .footer {background-color: #2f303A}
 .address {color:#ffffff}
 .address a {color:inherit;}
 .footer-contact {opacity:0.6}
+.footer-contact:hover,.footer-contact:focus {color:#2196F3}
 .header-web, .footer-web {color: #2196F3}
 .header-studio {color:#000}
 .footer-studio {color:#fff}
@@ -13,13 +14,15 @@ body {font-family:'Roboto', 'Raleway', sans-serif;}
 .lorem-ipsum {color:#212121}
 .loremtext {color:#757575}
 .contacts a{color:#757575}
-.contacts a:hover{color:#2196F3}
-.header a{color:#212121}
-.header a:active{color:#2196F3}
+.contacts a:hover,.contacts a:focus {color:#2196F3}
+.nav a{color:#212121}
 .footer-web, .footer-studio, .header-web, .header-studio {font-family:'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;}
-a {text-decoration: none}
+.button1 {color:#fff;background-color: #2196F3}
+.nav a:focus,.nav a:hover {color: #2196F3}
+.button2 {background-color: #F5F4FA}
+.button2:hover, .button2:focus {background-color: #2196F3}
