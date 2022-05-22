@@ -6,6 +6,7 @@ background-color: #ffffff;
   --brand-color: #2196f3;
   --brand-background-color: #2f303a;
 }
+.link {text-decoration: none}
 .header-web,
 .footer-web {
   color: var(--brand-color);
