@@ -22,7 +22,8 @@ background-color: #ffffff;
     font-size: 44px;
     line-height: 1.3636363636;
 letter-spacing: 0.06em;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+  text-align: center}
 .section4 {
   background-color: #f5f4fa;
 }
@@ -58,8 +59,8 @@ font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666666667;
-    text-align: center;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 .lorem-ipsum {
   color: #212121;
@@ -114,7 +115,7 @@ font-style: normal;
 .button1 {
   color: #fff;
   background-color: var(--brand-color);
-  curson: pointer
+  cursor: pointer;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -124,12 +125,13 @@ font-style: normal;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border: none
+  border: none;
+
 }
 
 .button2 {
   background-color: #f5f4fa;
-  cursor: pointer
+  cursor: pointer;
 font-style: normal;
     font-weight: 500;
     font-size: 16px;
